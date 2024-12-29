@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="site-name" content="MovieGhost">
+    <meta name="author" content="WebDevGhost">
+    <meta name="organization" content="WebDevGhost">
+    <meta name="description" content="Download free movies!">
+    <meta name="keywords" content="Download, Free, Movies">
+    <link rel="icon" href="assets/branding/logo.png">
+    <link rel="manifest" href="assets/manifest.json">
+    <link rel="stylesheet" href="assets/styling.css">
+    <title>MovieGhost</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #1e1e1e;
+            border-bottom: 2px solid #cf9fff;
+            padding: 10px;
+        }
+
+        .navbar img {
+            height: 26px;
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            background-color: #2c2c2c;
+            border-radius: 8px;
+            padding: 0;
+            height: 40px;
+            margin-left: 10px;
+            overflow: hidden;
+        }
+
+        .search-bar img {
+            height: 24px;
+            margin: 0 8px;
+        }
+
+        .search-bar input {
+            background: none;
+            border: none;
+            color: white;
+            outline: none;
+            font-size: 16px;
+            text-align: left;
+            flex: 1;
+        }
+
+        .content {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .content img {
+            max-width: 85%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        .body-container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #1e1e1e;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px auto;
+            width: 90%;
+            height: auto;
+        }
+
+        .body-left {
+            display: flex;
+            align-items: center;
+        }
+
+        .body-text {
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .pill {
+            background-color: #2c2c2c;
+            padding: 5px 10px;
+            border-radius: 8px;
+            margin-left: 5px;
+            font-size: 14px;
+        }
+
+        .download-btn {
+            background-color: #2c2c2c;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .download-btn:hover {
+            background-color: #cf9fff;
+            color: #2c2c2c;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            .body-container {
+                height: 100px;
+            }
+
+            .navbar {
+                padding: 5px;
+            }
+
+            .navbar img {
+                height: 20px;
+                margin: 0 10px;
+            }
+
+            .search-bar {
+                height: 35px;
+            }
+
+            .search-bar img {
+                height: 20px;
+            }
+
+            .search-bar input {
+                font-size: 14px;
+            }
+
+            .pill {
+                font-size: 12px;
+                padding: 4px 8px;
+            }
+
+            .download-btn {
+                padding: 8px 12px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <img src="assets/icons/home.png" alt="Home" onclick="window.open('https://google.com/404', '_blank')">
+        <img src="assets/icons/movie.png" alt="List" onclick="window.open('https://google.com/404', '_blank')">
+
+        <div class="search-bar">
+            <img src="assets/icons/search.png" alt="Search">
+            <input type="text" id="search" placeholder="Search for movies...">
+        </div>
+    </div>
+
+    <div class="content">
+        <img src="assets/branding/title.png" alt="Header Image">
+        <p>Download free movies!</p>
+        
+        <br>
+         <br>
+
+        <div id="body1" class="body-container">
+            <div class="body-left">
+                <span class="body-text">Movie Name</span>
+                <span class="pill">Quality</span>
+                <span class="pill">Size</span>
+            </div>
+            <a class="download-btn" href="#">Download</a>
+        </div>
+
+        <div id="body2" class="body-container">
+            <div class="body-left">
+                <span class="body-text">Movie Name</span>
+                <span class="pill">Quality</span>
+                <span class="pill">Size</span>
+            </div>
+            <a class="download-btn" href="#">Download</a>
+        </div>
+
+    </div>
+
+    <script>
+        const searchBar = document.getElementById('search');
+        const bodies = document.querySelectorAll('.body-container');
+
+        searchBar.addEventListener('input', () => {
+            const query = searchBar.value.toLowerCase();
+            bodies.forEach(body => {
+                const text = body.textContent.toLowerCase();
+                if (text.includes(query)) {
+                    body.classList.remove('hidden');
+                } else {
+                    body.classList.add('hidden');
+                }
+            });
+        });
+
+        searchBar.addEventListener('blur', () => {
+            bodies.forEach(body => body.classList.remove('hidden'));
+        });
+    </script>
+</body>
+</html>
