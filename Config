@@ -1,0 +1,54 @@
+// 1.0.0
+<Old.Start>
+CSSIncluded; Yes
+JSIncluded; Yes
+ManifestIncluded; Yes
+DesktopSupport; Yes*Windows,Mac,Linux
+TabletSupport; Yes*Android-Universal,iPad-IOS
+MobileSupport; Yes*Android-Universal,iPhone-IOS
+TextColour; White-Default, Auto
+BackgroundColour; Auto
+AccentColour; Auto
+IconColour; Auto
+NavBarColour; Auto
+SearchBarColour; Auto
+BodyColour; Auto
+PillColour; Auto
+ButtonColour; Auto
+</OldEnd>
+
+// 1.1.0 - New syntax and formatting.
+<NewStart>
+MetaTags: True;
+BackEndServicesAvailable: True;
+BackEndServicesActive: False;
+DebuggingActive: Flase;
+DebuggingEnabled: False;
+BrandingIncluded: True;
+AssetsIncluded: True;
+CascadingStylesIncluded: True;
+JavaScriptIncluded: True;
+JSONManifestIncluded: True;
+IndexIncluded: True;
+DesktopSupport: Windows(7,8,10,11), Mac(UniversalVersion), Linux(UniversalVersion);
+TabletSupport: Android(UniversalVersion), IOS(UniversalVersion);
+MobileSupport: Android(UniversalVersion), IOS(UniversalVersion);
+ConsoleSupport: PlayStation(3,4,5), Xbox(360,One,OneS,OneX);
+BackgroundColour: FromProperties;
+MainAccentColour: FromProperties;
+SecondaryAccentColour: FromProperties;
+IconColour: FromProperties;
+NavigationBarBackgroundColour: FromProperties;
+NavigationBarBorderColour: FromProperties;
+NavigationBarSearchBarBackgroundColour: FromProperties;
+NavigationBarSearchBarIconColour: FromProperties;
+NavigationBarSearchBarPlaceholderTextColour: FromProperties;
+LogoSubTextColour: FromProperties;
+BodyBackgroundColour: FromProperties;
+BodyTextColour: FromProperties;
+BodyMiniPillBackgroundColour: FromProperties;
+BodyMiniPillTextColour: FromProperties;
+BodyDownloadButtonBackgroundColour: FromProperties;
+BodyDownloadButtonHoverColour: FromProperties;
+BodyDownloadButtonTextColour: FromProperties;
+</NewEnd>
