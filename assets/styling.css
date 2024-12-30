@@ -31,11 +31,11 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #1a001f;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: white;
+  background-color: mediumpurple;
   border-radius: 4px;
 }
 
