@@ -5,7 +5,8 @@ Where do the movies come from? Here's the sources used (please note that all mov
 - Prime Video
 
 ### To-Do List
-- Redesign the whole site (movie bodies as rounded tablets instead of bars)
-- Make the site more responsive (mobile and tablet devices)
-- Add search filters
-- Add more info to movie bodies (banner, language, movie length, etc)
+- [DONE] Add proxy and VPN detection (free service as the site is static)
+- [IN PROGRESS] Redesign the whole site (movie bodies as rounded tablets instead of bars)
+- [IN PROGRESS] Make the site more responsive (mobile and tablet devices)
+- [IN PROGRESS] Add search filters
+- [IN PROGRESS] Add more info to movie bodies (banner, language, movie length, etc)
