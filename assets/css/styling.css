@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #1a1a2e, #1f0039);
+    background: linear-gradient(135deg, #1a1a2e, #141414, #141414);
     color: #fff;
     overflow-x: hidden;
 }
