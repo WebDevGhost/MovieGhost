@@ -1,34 +1,34 @@
-• The Incredible Hulk                                      1080P/60FPS, 1.40GB                                
-• Iron Man 2                                               720P/30FPS, 0.99GB
-• Thor                                                     720P/30FPS, 876MB
-• Iron Man 3                                               720P/30FPS, 0.92GB
-• Captain America: The Winter Soldier                      480P/24FPS, 604MB
-• Guardians of the Galaxy                                  1080P/60FPS, 1.73GB
-• Ant-Man & The Wasp                                       720P/30FPS, 824MB
-• Ant-Man                                                  720P/30FPS, 1.20GB
-• Thor: Ragnarok                                           720P/30FPS, 0.99GB
-• Avengers: Infinity War                                   720P/30FPS, 1.05GB
-• Avengers: Endgame                                        1080P/60FPS, 1.89GB
-• SpiderMan: Far From Home                                 1080P/60FPS, 1.74GB
-• Shang-Chi: Legend of the Ten Rings                       1080P/60FPS, 1.64GB
-• Eternals                                                 720P/30FPS, 862MB
-• Doctor Strange: Multiverse of Madness                    720P/30FPS, 0.97GB
-• Insidious: Chapter 2                                     720P/30FPS, 455MB
-• Avatar                                                   720P/30FPS, 1.03GB
-• Avatar: The Way Of Water                                 1080P/60FPS, 5.66GB
-• Venom: Let There Be Carnage                              1080P/60FPS, 1.16GB
-• Venom: The Last Dance                                    720P/30FPS, 237MB
-• The Mortal Instruments: City Of Bones                    720P/30FPS, 449MB
-• Tomorrow War                                             1080P/60FPS, 1.37GB
-• Planet Of The Apes (Unknown Sequal)                      1080P/60FPS, 2.07GB
-• City Of Ember                                            360P/24FPS, 184MB
-• Black Adam                                               1080P/60FPS, 2.04GB
-• 007: No Time To Die                                      1080P/60FPS, 1.89GB
-• Pirates of the Caribbean: At World's End                 720P/30FPS, 1.35GB
+• 007: No Time To Die                                      1080P/60FPS, 1.89GB  
+• Ant-Man                                                  720P/30FPS, 1.20GB  
+• Ant-Man & The Wasp                                       720P/30FPS, 824MB  
+• Avatar                                                   720P/30FPS, 1.03GB  
+• Avatar: The Way Of Water                                 1080P/60FPS, 5.66GB  
+• Avengers: Endgame                                        1080P/60FPS, 1.89GB  
+• Avengers: Infinity War                                   720P/30FPS, 1.05GB  
+• Black Adam                                               1080P/60FPS, 2.04GB  
+• Captain America: The Winter Soldier                      480P/24FPS, 604MB  
+• City Of Ember                                            360P/24FPS, 184MB  
+• Doctor Strange: Multiverse of Madness                    720P/30FPS, 0.97GB  
+• Drive                                                    1080P/60FPS, 766MB  
+• Eternals                                                 720P/30FPS, 862MB  
+• Guardians of the Galaxy                                  1080P/60FPS, 1.73GB  
+• Iron Man 2                                               720P/30FPS, 0.99GB  
+• Iron Man 3                                               720P/30FPS, 0.92GB  
+• Insidious: Chapter 2                                     720P/30FPS, 455MB  
+• Jeepers Creepers 2                                       720P/30FPS, 359MB  
+• Pirates of the Caribbean: At World's End                 720P/30FPS, 1.35GB  
+• Planet Of The Apes (Unknown Sequal)                      1080P/60FPS, 2.07GB  
+• Push                                                     1080P/60FPS, 1.47GB  
+• Sausage Party                                            720P/30FPS, 660MB  
+• Shang-Chi: Legend of the Ten Rings                       1080P/60FPS, 1.64GB  
+• SpiderMan: Far From Home                                 1080P/60FPS, 1.74GB  
+• Subserviense                                             480P/24FPS, 297MB  
+• The Guest                                                1080P/60FPS, 860MB  
+• The Incredible Hulk                                      1080P/60FPS, 1.40GB  
+• The Mortal Instruments: City Of Bones                    720P/30FPS, 449MB  
+• Thor                                                     720P/30FPS, 876MB  
+• Thor: Ragnarok                                           720P/30FPS, 0.99GB  
+• Tomorrow War                                             1080P/60FPS, 1.37GB  
+• Venom: Let There Be Carnage                              1080P/60FPS, 1.16GB  
+• Venom: The Last Dance                                    720P/30FPS, 237MB  
 • Wonder Woman 1984                                        1080P/60FPS, 2.28GB
-• Sausage Party                                            720P/30FPS, 660MB
-• Jeepers Creepers 2                                       720P/30FPS, 359MB
-• Subserviense                                             480P/24FPS, 297MB
-• The Guest                                                1080P/60FPS, 860MB
-• Push                                                     1080P/60FPS, 1.47GB
-• Drive                                                    1080P/60FPS, 766MB
