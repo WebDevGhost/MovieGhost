@@ -48,6 +48,100 @@
             margin-top: 10px;
         }
 
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+            margin-top: 50px;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            width: calc(50% - 10px);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+            transition: transform 0.3s ease;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .card h4 {
+            font-size: 24px;
+            margin-top: 15px;
+        }
+
+        .card p {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+
+        .card-button {
+            background-color: #333333;
+            border: 1px solid #ffffff;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .card-button:hover {
+            background-color: #4d4d4d;
+            transform: scale(1.05);
+        }
+
+        .card-button.download {
+            background-color: #333333;
+            border-color: #ffffff;
+        }
+
+        .card-button.download:hover {
+            background-color: #4d4d4d;
+        }
+
+        .card-button:focus {
+            outline: none;
+        }
+
+        .card-button img {
+            width: 22px;
+            height: 22px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+
+            .card-button img {
+                width: 18px;
+                height: 18px;
+            }
+
+            .card h4 {
+                font-size: 20px;
+            }
+
+            .card p {
+                font-size: 12px;
+            }
+        }
+
         .nav-bar {
             position: fixed;
             bottom: 0;
@@ -108,26 +202,6 @@
             width: 100%;
         }
 
-        @media (max-width: 768px) {
-            .nav-icon {
-                height: 26px;
-                width: 26px;
-            }
-
-            .search-bar {
-                max-width: 150px;
-                height: 30px;
-            }
-
-            .search-icon {
-                height: 18px;
-                width: 18px;
-            }
-
-            .search-input {
-                font-size: 12px;
-            }
-        }
     </style>
 </head>
 <body>
@@ -135,6 +209,38 @@
     <div class="header">
         <h4>MovieGhost</h4>
         <p>Watch & download free movies!</p>
+    </div>
+
+    <div class="card-container">
+
+        <div class="card">
+            <img src="assets/images/cards/" alt="Movie">
+            <h4>{Movie_Title}</h4>
+            <p>{Movie_Description}</p>
+            <br>
+             <br>
+            <a href="#" class="card-button" target="_blank">
+                <img src="assets/images/icons/watch.png" alt="Watch"> Watch
+            </a>
+            <a href="#" class="card-button download">
+                <img src="assets/images/icons/download.png" alt="Download"> Download
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="assets/images/cards/" alt="Movie">
+            <h4>{Movie_Title}</h4>
+            <p>{Movie_Description}</p>
+            <br>
+             <br>
+            <a href="#" class="card-button" target="_blank">
+                <img src="assets/images/icons/watch.png" alt="Watch"> Watch
+            </a>
+            <a href="#" class="card-button download">
+                <img src="assets/images/icons/download.png" alt="Download"> Download
+            </a>
+        </div>
+
     </div>
 
     <div class="nav-bar">
