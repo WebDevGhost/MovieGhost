@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1a1a2e, #1f0039);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 13px;
+    }
+
+    .content {
+        padding: 15px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ddd;
+}
+
+html, body {
+    -ms-overflow-style: none;
+    scrollbar-width: thin;
+}
+
+body {
+    overscroll-behavior: none;
+}
+
+a, button, input, select, textarea {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+button, input[type="button"], input[type="submit"] {
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+button:active, input[type="button"]:active, input[type="submit"]:active {
+    transform: scale(0.95);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.content {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.footer {
+    animation: slideIn 1.2s ease-in-out;
+}
+
+body {
+    background: linear-gradient(135deg, #1a1a2e, #1f0039);
+    background-attachment: fixed;
+}
