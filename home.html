@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <meta name="name" content="MovieGhost">
+    <meta name="description" content="Watch and download movies, for free!">
+    <meta name="keywords" content="Watch, Download, Movies, Free, Play, Stream, Browse, GitHub, Advanced, Clean, Modern">
+    <meta name="author" content="WebDev Ghost">
+    <meta name="organization" content="WebDevGhostIO">
+    <link rel="icon" href="assets/images/branding/favicon.ico">
+    <link rel="manifest" href="assets/manifest.json">
+    <link rel="stylesheet" href="assets/css/styling.css">
+    <script src="assets/js/scripting.js"></script>
+    <meta name="theme-color" content="#141414">
+    
+    <style>
+
+        @font-face {
+            font-family: 'Boldena';
+            src: url('assets/font/boldena.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-color: #141414;
+        }
+
+        .header {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .header h4 {
+            font-family: 'Boldena', sans-serif;
+            font-weight: 500;
+            font-size: 36px;
+        }
+
+        .header p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .nav-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #1e1e1e;
+            border-top: 2px solid white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 0;
+            box-sizing: border-box;
+        }
+
+        .nav-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            width: 100%;
+            max-width: 1200px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .nav-icon {
+            height: 28px;
+            width: 28px;
+            cursor: pointer;
+        }
+
+        .search-bar {
+            height: 35px;
+            max-width: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #141414;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .search-icon {
+            height: 20px;
+            width: 20px;
+            margin-right: 8px;
+        }
+
+        .search-input {
+            border: none;
+            outline: none;
+            background: none;
+            color: white;
+            font-size: 14px;
+            flex-grow: 1;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .nav-icon {
+                height: 26px;
+                width: 26px;
+            }
+
+            .search-bar {
+                max-width: 150px;
+                height: 30px;
+            }
+
+            .search-icon {
+                height: 18px;
+                width: 18px;
+            }
+
+            .search-input {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h4>MovieGhost</h4>
+        <p>Watch & download free movies!</p>
+    </div>
+
+    <div class="nav-bar">
+        <div class="nav-content">
+            <img src="assets/images/icons/home.png" alt="Home" class="nav-icon" onclick="window.location.href='home.html';">
+            <img src="assets/images/icons/info.png" alt="Info" class="nav-icon" onclick="window.location.href='info.html';">
+            <div class="search-bar">
+                <img src="assets/images/icons/search.png" alt="Search" class="search-icon">
+                <input type="text" class="search-input" placeholder="Search a movie...">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
